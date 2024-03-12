@@ -28,6 +28,12 @@
   background-size: cover;
 }
 
+@media (min-width: 768px) {
+  .center-text {
+    text-align: center;
+  }
+}
+
 @media (max-width: 992px) {
   .navbar {
     background: var(--bs-dark);
